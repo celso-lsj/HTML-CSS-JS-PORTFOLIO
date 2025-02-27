@@ -1,0 +1,10 @@
+
+/*Quando a largura da tela for menor que 1200px, a navegação de mesa (desktop-nav) ficará off*/
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}
